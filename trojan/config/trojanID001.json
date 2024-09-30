@@ -7,5 +7,8 @@
 	},
 	{
 		"module" : "name"
+	},
+	{
+		"module" : "keylogger"
 	}
 ]
