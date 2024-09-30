@@ -1,1 +1,3 @@
+The code in this repository - along with much of the commentary - is based on or taken outright from Chapters 7 and 8 of Black Hat Paython, 2nd Edition by Justin Seitz and Tim Arnold.
 
+Use the command `pyinstaller -F trojan.py` in the same directory as `trojan.py` to generate `trojan.exe`, which may then be executed on any Windows machine. When run, the program connects to this repository and checks the configuration file `/config/trojanID001.json`. The program then searches the `/modules/` directory to find the `*.py` file corresponding to each module in `trojanID001.json`, imports the code therein, and runs it locally on the target machine. The results are then uploaded back to this repository under `/data/trojanID001/`.
